@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:model_viewer_plus/model_viewer_plus.dart';
 
-void main() {
+void main() async {
   runApp(const MainApp());
 }
 
@@ -12,9 +12,8 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: const Text('3D Car Model')),
         body: const ModelViewer(
-          src: 'assets/models/cartoon.glb',
+          src: 'assets/models/robot.glb',
           ar: true,
           autoRotate: true,
           cameraControls: true,
