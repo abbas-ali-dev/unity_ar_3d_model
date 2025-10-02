@@ -13,7 +13,7 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: const ModelViewer(
-          src: 'assets/models/robot.glb',
+          src: 'assets/models/car_model.glb',
           ar: true,
           autoRotate: true,
           cameraControls: true,
