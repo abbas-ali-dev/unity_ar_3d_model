@@ -17,7 +17,7 @@ class MainApp extends StatelessWidget {
           ar: true,
           autoRotate: true,
           cameraControls: true,
-          loading: Loading.lazy,
+          loading: Loading.eager,
           disableZoom: false,
         ),
       ),
